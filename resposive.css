@@ -1,0 +1,742 @@
+/* mobile */
+/* @media screen and (max-width: 390px) {
+  
+   h2{
+    font-size: x-large;
+   }
+   h3{
+    font-size: large;
+   }
+  .studentbody {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    width: 390px;
+    margin: auto;
+  }
+   .studenttital{
+    margin: 0 auto;
+    width: 390px;
+  
+    font-size: small;
+    
+   }
+   .studenttital h1{
+
+   }
+   .studenttital{
+    font-size: x-large;
+
+}
+
+.studenttext{
+    width: 340px !important;
+    margin: 20px;
+
+}
+.studenttext1{
+    font-size: 20px;
+    
+}
+.studenttext h2{
+    font-size: 18px;
+}
+.studenttext p{
+    font-size: 15px;
+}
+.studenttext ul li{
+    font-size: 12px;
+}
+.studenttext button{
+    font-size: 12px;
+}
+
+
+
+
+.plagiarismtital h2{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.plagiarismtext{
+    flex-direction: column;
+    padding: none;
+} 
+.plagiarisminnertext{
+    width: 340px;
+    padding: 10px;
+}
+
+.sofmain div{
+    flex-direction: column;
+    gap: 10px;
+}
+.softwarebody{
+    height: 350px !important;
+    width: 390px;
+    justify-content: space-between !important;
+}
+.softwarebtna ,.Softwarebtnb {
+    font-size: smaller;
+    text-align: center;
+}
+
+
+.compi{
+    flex-direction: column;
+}
+.compilef{
+    width: 340px !important;
+    padding: 10px;
+}
+
+.compirig{
+
+    margin: auto;
+    width: 340px !important;
+}
+.compirigf{
+    flex-direction: column;
+}
+.compirigf div{
+    width: 100%;
+}
+
+
+.ser{
+    margin-top: 20px;
+    flex-direction: column;
+}
+.ser div{
+    width: 390px;
+}
+.ser div img{
+    width: 390px;
+}
+.sertext h2,h3{
+    margin-left: 10px;
+    font-size: 22px;
+}
+.sertext a{
+    padding-left: 10px;
+}
+
+.test{
+    flex-direction: column;
+    width: 390px;
+}
+.testimg{
+    width: 390px !important;
+}
+.testimg img{
+    width: 350px;
+    margin-left: 20px;
+}
+.testtext{
+    width: 390px;
+    padding: 10px;
+}
+
+
+.similar{
+    flex-direction: column;
+    padding: 20px;
+}
+.similar div{
+    width: 100%;
+}
+.similar div img{
+    width: 100%;
+}
+
+
+.lis{
+    padding: 20px;
+    flex-direction: column;
+}
+.lis div{
+    width: 100%;
+}
+.lis div img{
+    width: 100%;
+}
+.lis h2{
+    font-size: x-large;
+}
+.lis h3{
+    font-size: larger;
+}
+
+
+.nonpla{
+    padding: 20px;
+    flex-direction: column;
+}
+.nonpla div{
+    width: 100%;
+}
+.nonpla h2{
+    font-size: x-large;
+}
+.nonpla h3{
+    font-size: larger;
+}
+.nonpla img{
+    width: 100%;
+}
+
+.secu{
+    padding: 20px;
+    flex-direction: column;
+}
+.secu div{
+    width: 100%;
+}
+.secu h2{
+    font-size: x-large;
+}
+.secu h3{
+    font-size: large;
+}
+.secu img{
+    width: 100%;
+}
+} */
+
+@media screen and (max-width: 576px) {
+  h2.h2-tag {
+    font-size: 20px;
+  }
+  h3.h3-tag {
+    font-size: 15px;
+  }
+  p.p-tag {
+    font-size: 14px;
+  }
+  .studentbody {
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+  }
+  .studentbody h1 {
+    font-size: 30px;
+  }
+
+  .studentbody div {
+    width: 100%;
+  }
+
+  .studenttext p {
+    font-size: 14px;
+  }
+  .Plagiarism {
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .plagiarismtext {
+    flex-direction: column;
+  }
+  .plagiarisminnertext {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 7px;
+  }
+  .compi {
+    flex-direction: column;
+    margin-top: 50px !important;
+    margin: 10px;
+    text-align: center;
+  }
+  .compirigf{
+    flex-direction: column;
+  }
+  .compirigf div{
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .compilef {
+    width: 100% !important;
+  }
+  .compilef h2 {
+    font-size: x-large;
+  }
+  .compilef h3 {
+    font-size: large;
+  }
+  .compirig {
+    width: 100% !important;
+  }
+  .compirigf {
+    padding: 0%;
+  }
+  .compirigf div div {
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  .ser {
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+  }
+  .ser div {
+    width: 100%;
+  }
+  .ser img {
+    width: 100%;
+  }
+
+  .test {
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+  }
+  .test div {
+    width: 100%;
+  }
+  .test img {
+    width: 100%;
+  }
+  .testimg {
+    width: 100%;
+  }
+  .testtext {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .similar {
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .similar div {
+    width: 100%;
+  }
+  .similar div img {
+    width: 100%;
+  }
+
+  .similar ul li {
+    padding-bottom: 10px;
+  }
+  .lis {
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .lis div {
+    width: 100%;
+  }
+  .lis img {
+    width: 100%;
+  }
+
+  .nonpla {
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .nonpla div {
+    width: 100%;
+  }
+  .nonpla div img {
+    width: 100%;
+  }
+
+  .nonpla img {
+    margin-top: 20px;
+  }
+  .secu {
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .secu div {
+    width: 100%;
+  }
+  .secu img {
+    width: 100%;
+  }
+
+  .secutext {
+    margin-top: 30px;
+  }
+  .online{
+    flex-direction: column;
+    text-align: center;
+  }
+  .online div{
+    width: 100%;
+  }
+  .online img{
+    width: 100%;
+  }
+  .free{
+    flex-direction: column;
+    text-align: center;
+  }
+  .free div{
+    width: 100%;
+    
+  }
+  .freeimg{
+    
+  }
+  .free img{
+    width: 100%;
+    
+  }
+  .don ,.how,.magis{
+    flex-direction: column;
+    text-align: center;
+  }
+  .don div,.how div,.magis div{
+    width: 100%;
+  }
+  .don img,.how img,.magis img{
+    width: 100% !important;
+  }
+  .online,.don{
+    margin: 10px;
+  }
+  .tur{
+    gap: 15px;
+    margin:10px;
+    flex-direction: column;
+  }
+ 
+  
+}
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+  .studentbody {
+    flex-direction: column;
+    text-align: center;
+  }
+  .studentbody div{
+    width: 100%;
+  }
+  .plagiarismtext {
+    flex-direction: column;
+    text-align: center;
+  }
+  .plagiarisminnertext{
+    width: 100%;
+    padding: 0px;
+  }
+  .compi{
+    flex-direction: column;
+    padding: 20px;
+  }
+  .compi div{
+    width: 100%;
+  }
+  .compirigf{
+    padding: 0px;
+  }
+  .compirig div div{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .ser{
+    flex-direction: column;
+  }
+  .ser div{
+    width: 100%;
+    margin: 2%;
+  }
+  .ser img{
+    width: 100%;
+    
+  }
+  .test{
+    flex-direction: column;
+    margin: 10px;
+    
+  }
+  .test div{
+    width: 100%;
+  }
+  .test img{
+    width: 50%;
+    margin:0 25% ;
+    /* width: 100% !important; */
+    /* margin: 50px; */
+  }
+  .similar{
+    flex-direction: column;
+    margin: 20px;
+  }
+  .similar div{
+    width: 100%;
+  }
+  .similar img{
+    width: 100%;
+  }
+  .lis{
+    flex-direction: column;
+    margin: 20px;
+  }
+  .lis div{
+    width: 100%;
+  }
+  .nonpla{
+    flex-direction: column;
+    margin: 10px;
+  }
+  .nonpla div{
+    width: 100%;
+  }
+  .nonpla img{
+    padding-top: 30px;
+    width: 100%;
+  }
+  .secu{
+    flex-direction: column;
+    margin: 20px;
+  }
+  .secu div{
+    width: 100%;
+   
+  }
+  .secu img{
+    width: 50%;
+    margin:0 25% ;
+  }
+  .online{
+    flex-direction: column;
+    text-align: center;
+  }
+  .online div{
+    width: 100%;
+  }
+  .online img{
+    width: 50%;
+  }
+  .free{
+    flex-direction: column;
+    text-align: center;
+  }
+  .free div{
+    width: 100%;
+  }
+  .free img{
+    width: 50%;
+  }
+  .don ,.how,.magis{
+    flex-direction: column;
+    text-align: center;
+  }
+  .don div,.how div,.magis div{
+    width: 100%;
+  }
+  .don img,.how img,.magis img{
+    width: 50%;
+  }
+  .online,.don{
+    margin: 10px;
+  }
+  .tur{
+    gap: 15px;
+    margin:10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    body{
+        margin: 20px;
+    }
+    .studentbody{
+        flex-direction: column;
+    }
+    .studentbody div{
+        width: 100%;
+        text-align: center;
+    }
+    .plagiarismtext{
+        flex-direction: column;
+        align-items: center;
+    }
+    .plagiarismtext div{
+        width: 100%;
+    }
+    .compi{
+        flex-direction: column;
+    }
+    .compi div{
+        width: 100%;
+    }
+    .compirigf{
+        padding: 0;
+        width: 100%;
+    }
+    .compirigf div{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .ser{
+        flex-direction: column;
+    }
+    .ser div{
+        width: 100%;
+    }
+    .ser img{
+        width: 100%;
+    }
+    
+  .test {
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+  }
+  .test div {
+    width: 100%;
+  }
+  .test img {
+    width: 50%;
+  }
+  .testimg {
+    width: 100%;
+  }
+  .testtext {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .similar {
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .similar div {
+    width: 100%;
+  }
+  .similar div img {
+    width: 100%;
+  }
+
+  .similar ul li {
+    padding-bottom: 10px;
+  }
+  .lis {
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .lis div {
+    width: 100%;
+  }
+  .lis img {
+    width: 100%;
+  }
+
+  .nonpla {
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .nonpla div {
+    width: 100%;
+  }
+  .nonpla div img {
+    width: 100%;
+  }
+
+  .nonpla img {
+    margin-top: 20px;
+  }
+  .secu {
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .secu div {
+    width: 100%;
+  }
+  .secu img {
+    width: 50%;
+  }
+
+  .secutext {
+    margin-top: 30px;
+  }
+  .online{
+    flex-direction: column;
+    text-align: center;
+  }
+  .online div{
+    width: 100%;
+  }
+  .online img{
+    width: 50%;
+  }
+  .free{
+    flex-direction: column;
+    text-align: center;
+  }
+  .free div{
+    width: 100%;
+  }
+  .free img{
+    width: 50%;
+  }
+  .don ,.how,.magis{
+    flex-direction: column;
+    text-align: center;
+  }
+  .don div,.how div,.magis div{
+    width: 100%;
+  }
+  .don img,.how img,.magis img{
+    width: 50%;
+  }
+ 
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    body{
+        margin: 30px;
+    }
+    .studentbody{
+        width: 100%;
+    }
+    .studentbody div{
+        width: 100%;
+    }
+    .plagiarismtext{
+        display: flex;
+        gap: 10px;
+        padding: 0px;
+    }
+    .plagiarisminnertext{
+     padding: 0px;
+    }
+    .compirigf{
+        padding: 0px;
+
+    }
+    .compirigf div div{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .testimg img{
+        width: 100%
+        ;
+    }
+    .similar img,.lis img,.nonpla img,.secuimg img ,.onlineimg img,.freeimg img,.donimg img,.howimg img,.magisimg img{
+        width: 100%;
+    }
+
+
+}

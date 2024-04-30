@@ -1,0 +1,719 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root{
+    --org:#f63;
+}
+body {
+  font-family: "Nunito";
+}
+/* Compilatio Studium:
+Plagiarism Checker
+for students */
+.studentbody {
+  max-width: 1240px;
+  margin: auto;
+  display: flex;
+  margin-top: 40px;
+  gap: 20px;
+}
+.studenttext div{
+    margin-top: 40px;
+}
+.studenttext div a{
+    background-color: var(--org);
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    margin-top: 40px ;
+}
+.studentbody div {
+  width: 50%;
+}
+.studenttital h1 {
+  width: 100%;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  font: bold;
+  /* margin-bottom: 20px; */
+}
+.studenttext {
+  width: 100%;
+}
+.studenttext1 {
+  color:var(--org);
+  font-family: m MuliExtraBold, sans-serif;
+  margin-bottom: 15px;
+}
+.studenttext p {
+  font-size: 16px;
+  color: gray;
+  margin-top: 15px;
+}
+.studenttext ul {
+  color: gray;
+  margin-bottom: 15px;
+}
+.studenttext ul li {
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.studenttext button {
+  background-color: var(--org);
+  padding: 20px;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  font-family: MuliBold, sans-serif;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+/* Why Compilatio Studium
+rather than another Plagiarism Detector? */
+
+.Plagiarism {
+  max-width: 1240px;
+  margin: auto;
+}
+.plagiarismtital h2 {
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+.plagiarismtext img {
+  height: 75px;
+  width: 75px;
+  padding-bottom: 20px;
+}
+
+.plagiarismtext {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 10px; */
+}
+.plagiarisminnertext {
+  text-align: center;
+  width: 20%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.plagiarisminnertext strong {
+  color: #3b4b76;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+.plagiarisminnertext div p {
+  color: #3b4b76;
+}
+
+/* Software */
+.sofmain {
+  background-color: antiquewhite;
+}
+.softwarebody {
+  max-width: 1240px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: antiquewhite;
+  margin-top: 90px;
+  height: 80px;
+  align-items: center;
+}
+
+.softwarebody div {
+  display: flex;
+  gap: 30px;
+}
+.softwarebtna {
+  padding: 10px;
+  border-radius: 30px;
+  background-color: var(--org);
+  color: white;
+}
+
+.Softwarebtnb {
+  padding: 10px;
+  border-radius: 30px;
+  border: 2px solid var(--org);
+  color: var(--org);
+}
+
+/* Compilatio Studium: your writing and citation tools */
+.compi {
+  max-width: 1240px;
+  margin: auto;
+  margin-top: 90px;
+  display: flex;
+  gap: 30px;
+  color: #3b4b76;
+}
+.compi div {
+  width: 50%;
+}
+.compilef h2 {
+  font-size: 30px;
+  line-height: 34px;
+  margin-bottom: 20px;
+  color: black;
+}
+.compilef h3 {
+  line-height: 24px;
+  margin-bottom: 25px;
+  font-size: 23px;
+  color: black;
+}
+.compilef p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.compilef ul {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.compilef ul li {
+  margin-bottom: 8px;
+}
+.compilef a {
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: var(--org);
+  color: white;
+}
+.compirig img {
+  height: 35px;
+  width: 35px;
+}
+.compirig {
+  width: 100%;
+  margin: auto;
+}
+.compirigf {
+  width: 100% !important;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  border: 2px solid var(--org);
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 30px;
+}
+.compirigf div {
+  width: 50%;
+}
+.compirigf div div {
+  display: flex;
+  gap: 10px;
+  color: black;
+  margin-bottom: 15px;
+}
+.compirigf ul {
+  margin-left: 15px;
+}
+.compirigf ul li {
+  /* margin-bottom: 5px; */
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 5px 0;
+}
+.compirigf ul li i {
+  margin-right: 3px;
+  color: var(--org);
+}
+
+/* Plagiarism Detector serving your writings */
+
+.ser {
+  max-width: 1240px;
+  margin: auto;
+  margin-top: 90px;
+  display: flex;
+  gap: 20px;
+}
+.sertext div {
+  width: 50%;
+}
+.sertext h2 {
+  font-size: 30px;
+  line-height: 34px;
+  margin-bottom: 20px;
+  color: black;
+}
+.sertext h3 {
+  font-size: 23px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  color: black;
+}
+.sertext ul li {
+  font-size: 16px;
+  line-height: 28px;
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 5px 0;
+  text-align: left;
+  margin-left: 20px;
+}
+.sertext a {
+  color: var(--org);
+}
+.sertext ul li i {
+  color: var(--org);
+  padding-right: 5px;
+}
+
+/* A test document already analyzed for a concrete idea of the results */
+
+.test {
+  max-width: 1240px;
+  margin: auto;
+  padding-top: 100px;
+  display: flex;
+  gap: 20px;
+  color: #3b4b76;
+}
+.testimg {
+  width: 40%;
+}
+.testimg img {
+  box-shadow: rgba(255, 102, 51, 0.402) -5px 5px,
+    rgba(255, 102, 51, 0.31) -10px 10px, rgba(255, 102, 51, 0.202) -15px 15px,
+    rgba(255, 102, 51, 0.104) -20px 20px, rgba(255, 102, 51, 0.047) -25px 25px;
+  border-radius: 20px;
+}
+.testtext {
+  width: 60%;
+}
+.testtext h2 {
+  font-size: 30px;
+  line-height: 34px;
+  margin-bottom: 20px;
+  color: black;
+}
+.testtext h3 {
+  font-size: 23px;
+  line-height: 24px;
+  margin-bottom: 25px;
+  color: black;
+}
+.testtext p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.testtext ul {
+  margin-left: 15px;
+}
+.testtext ul li {
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 5px 0;
+  text-align: left;
+}
+
+.testtext ul li i {
+  margin-right: 3px;
+  color: var(--org);
+}
+
+/* /* The similarity score to check for plagiarism * */
+
+.similar {
+  max-width: 1240px;
+  margin: auto;
+  padding-top: 100px;
+  display: flex;
+  gap: 20px;
+  color: #3b4b76;
+}
+.similar div {
+  width: 50%;
+}
+.similar h2 {
+  font-size: 30px;
+  line-height: 34px;
+  margin-bottom: 20px;
+  color: black;
+}
+.similar h3 {
+  font-size: 23px;
+  line-height: 24px;
+  margin-bottom: 15px;
+  color: black;
+}
+.similar p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.similar ul li {
+  font-size: 16px;
+  line-height: 15px;
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 5px 0;
+  text-align: left;
+  margin-left: 20px;
+}
+
+/* Source list for a comprehensive bibliography */
+
+.lis {
+  max-width: 1240px;
+  margin: auto;
+  padding-top: 100px;
+  display: flex;
+  gap: 20px;
+  color: #3b4b76;
+}
+.lis div {
+  width: 50%;
+}
+.lis h2 {
+  font-size: 30px;
+  line-height: 34px;
+  color: black;
+  margin-bottom: 25px;
+}
+.lis h3 {
+  font-size: 23px;
+  line-height: 24px;
+  color: black;
+  margin-bottom: 15px;
+}
+.lis p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Non-plagiarism certification to include in your assignment */
+
+.nonpla {
+  max-width: 1240px;
+  margin: auto;
+  padding-top: 100px;
+  display: flex;
+  gap: 20px;
+  color: #3b4b76;
+}
+.nonpla div {
+  width: 50%;
+}
+
+.nonpla h2 {
+  font-size: 30px;
+  line-height: 34px;
+  color: black;
+  margin-bottom: 25px;
+}
+.nonpla h3 {
+  font-size: 23px;
+  line-height: 24px;
+  color: black;
+  margin-bottom: 15px;
+}
+.nonpla p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.nonpla ul li {
+  font-size: 16px;
+  line-height: 15px;
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 5px 0;
+  text-align: left;
+  margin-left: 20px;
+}
+.nonpla ul li i {
+  color:var(--org);
+  padding-right: 4px;
+}
+.nonpla a {
+  padding: 10px;
+  background-color:var(--org);
+  text-decoration: none;
+  color: white;
+  border-radius: 30px;
+}
+
+/* Confidentiality and Security, Compilatio's Commitments to Students */
+
+.secu {
+  max-width: 1240px;
+  margin: auto;
+  padding-top: 100px;
+  display: flex;
+  gap: 20px;
+  color: #3b4b76;
+}
+.secuimg {
+  width: 40%;
+}
+.secutext {
+  width: 60%;
+}
+.secuimg img {
+  box-shadow: rgba(255, 102, 51, 0.402) -5px 5px,
+    rgba(255, 102, 51, 0.31) -10px 10px, rgba(255, 102, 51, 0.202) -15px 15px,
+    rgba(255, 102, 51, 0.104) -20px 20px, rgba(255, 102, 51, 0.047) -25px 25px;
+  border-radius: 20px;
+}
+.secutext h2 {
+  font-size: 30px;
+  line-height: 34px;
+  color: black;
+  margin-bottom: 25px;
+}
+.secutext h3 {
+  font-size: 23px;
+  line-height: 24px;
+  color: black;
+  margin-bottom: 15px;
+}
+.secutext p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.secutextul ul li {
+  font-size: 16px;
+  line-height: 15px;
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 5px 0;
+  text-align: left;
+  margin-left: 20px;
+}
+/*     <!-- Online assistance and resources in your language, Compilatio's specialty -->
+ */
+
+ .online{
+    max-width: 1240px;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+    gap: 20px;
+    color: #3b4b76;
+ }
+ .onlinetext {
+    width: 60%;
+ }
+ .onlineimg{
+    width: 40%;
+ }
+ .online h2{
+    font-size: 30px;
+    line-height: 34px;
+    color: black;
+    margin-bottom: 25px;
+ }
+ .online h3{
+    font-size: 23px;
+  line-height: 24px;
+  color: black;
+  margin-bottom: 15px;
+ }
+ .online a{
+    color:var(--org);
+    text-decoration: underline;
+ }
+ 
+ /* <!-- Free access to the toolbox with your Compilatio Studium account --> */
+ .free{
+    max-width: 1240px;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+    gap: 20px;
+    color: #3b4b76;
+ }
+ .freeimg{
+    width: 40%;
+ }
+ .freetext{
+    width: 60%;
+ }
+ .free h2{
+    font-size: 30px;
+    line-height: 34px;
+    color: black;
+    margin-bottom: 25px;
+ }
+ .free h3{
+    font-size: 23px;
+    line-height: 24px;
+    color: black;
+    margin-bottom: 15px;
+   
+ }
+ .free a{
+    color: var(--org);
+ }
+.free ul li{
+    font-size: 16px;
+    line-height: 25px;
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 5px 0;
+    text-align: left;
+    margin-left: 20px;
+}
+.free ul li i{
+    color: var(--org);
+}
+.freea a{
+    padding: 10px;
+    background-color:var(--org);
+    text-decoration: none;
+    color: white ;
+    border-radius: 30px;
+
+}
+.freea{
+    margin-top: 20px;
+}
+
+/* Don't be accused of unintentional plagiarism */
+.don{
+    max-width: 1240px;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+    gap: 20px;
+    color: #3b4b76;
+}
+.donimg{
+    width: 40%;
+}
+.dontext{
+    width: 60%;
+}
+.don h2{
+    font-size: 30px;
+    line-height: 34px;
+    color: black;
+    margin-bottom: 25px;
+}
+.don h3{
+    font-size: 23px;
+    line-height: 24px;
+    color: black;
+    margin-bottom: 15px;
+}
+.don p a{
+    color: var(--org);
+}
+.don p{
+    margin-bottom: 20px;
+}
+.don a{
+    color: var(--org);
+    margin-bottom: 15px;
+}
+/* turning */
+.tur{
+    max-width: 1240px;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+    gap: 70px;
+    color: #3b4b76;
+    
+}
+.tur img{
+    height: 74px;
+    width: 74px;
+}
+.tur div{
+    text-align: center;
+}
+.tur h3{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+/* How to get free credits from your establishment, in partnership with Compilatio? */
+.how{
+    max-width: 1240px;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+    gap: 20px;
+    color: #3b4b76;
+}
+.howimg{
+    width: 40%;
+}
+.howtext{
+    width: 60%;
+}
+.how h2{
+    font-size: 30px;
+    line-height: 34px;
+    color: black;
+    margin-bottom: 25px;
+}
+.how h3{
+    font-size: 23px;
+    line-height: 24px;
+    color: black;
+    margin-bottom: 15px;
+}
+.how p{
+    margin-bottom: 15px;
+}
+
+/* With Compilatio Magister, is it possible for my teachers to detect...
+ */
+ .magis{
+    max-width: 1240px;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+    gap: 40px;
+    color: #3b4b76;
+ }
+ .magisimg{
+    width: 40%;
+ }
+ .magistext{
+    width: 60%;
+ }
+ .magis h2{
+    font-size: 30px;
+    line-height: 34px;
+    color: black;
+    margin-bottom: 25px;
+ }
+ .magis ul li{
+    font-size: 16px;
+    line-height: 25px;
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 5px 0;
+
+    margin-left: 20px;
+ }
+ 
